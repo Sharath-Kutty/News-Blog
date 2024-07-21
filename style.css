@@ -1,0 +1,78 @@
+.bg-1
+{
+    background-image: url(https://static.toiimg.com/thumb/msid-111854362,imgsize-61362,width-400,height-225,resizemode-72/111854362.jpg);
+    width: 610px;
+}    
+.bg-2
+{
+    background-image: url(https://tse3.mm.bing.net/th?id=OIP.lgGoYlisaZra-7HT59dIwAHaE7&pid=Api&P=0&h=180);
+}
+.bg-3
+{
+    background-image: url(https://static.india.com/wp-content/uploads/2024/07/ramdev.jpg?impolicy=Medium_Widthonly&w=700);
+}
+.bg-4
+{
+    background-image: url(amt.kill.jpg);
+}
+.bg-5
+{
+    background-image: url(https://tse1.mm.bing.net/th?id=OIP.KLoicA_oaHZWICfySSfJYQHaE8&pid=Api&P=0&h=180);
+}
+.bg-6
+{
+    background-image: url(https://tse1.mm.bing.net/th?id=OIP.iRWBIboM9Zd6UF7rpXdwnwAAAA&pid=Api&P=0&h=180);
+}
+.bg-7
+{
+    background-image: url(https://tse2.mm.bing.net/th?id=OIP.ijqlYcXs4_L0aHQjUANMLQHaHl&pid=Api&P=0&h=180);
+}
+
+*
+{
+    margin: 0;
+    padding: 0;
+    color: rgb(253, 249, 249);
+    
+}
+
+body
+{
+    background-image: url(https://tse2.mm.bing.net/th?id=OIP.Wqc_jUSnAOrmg6VAWwGzewHaEq&pid=Api&P=0&h=180);
+}
+div
+{
+    
+    height: 300px;
+    width: 300px;
+}
+
+.container
+{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+    margin-left: 10%;
+    margin-top: 5%;
+    box-shadow: 4px 7px 7px 0px #00000042;
+    
+}
+.container > div
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-position: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container > div:hover
+{
+    opacity: 0.8;
+    transform: scale(1.03);
+}
+.container > div:nth-of-type(1) 
+{
+    grid-column: 1/3;
+}
